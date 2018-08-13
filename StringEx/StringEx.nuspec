@@ -8,11 +8,9 @@
     <owners>Jongkeun</owners>
     <licenseUrl>https://github.com/Jongkeun/StringEx/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/Jongkeun/StringEx</projectUrl>
-    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <iconUrl>https://thumb.ibb.co/cDdnwU/cb4yv_16h30_0.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>$description$</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
-    <copyright>Copyright 2018</copyright>
-    <tags>Tag1 Tag2</tags>
+    <description>This is a extension of a string class. It contains very useful function about a string class.</description>
+    <releaseNotes>v1.0.0-beta</releaseNotes>
   </metadata>
 </package>
