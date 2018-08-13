@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace StringEx
 {
-    public class StringEx
+    public static class StringEx
     {
+        public static string Test(this string data)
+        {
+            // ReSharper disable once RedundantAssignment
+            Console.WriteLine("Success");
+            return data + " test";
+        }
     }
 }

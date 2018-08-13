@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>StringEx</id>
+    <id>Common.StringEx</id>
     <version>1.0.0-beta</version>
     <title>StringEx</title>
     <authors>Jongkeun</authors>
@@ -13,4 +13,7 @@
     <description>This is a extension of a string class. It contains very useful function about a string class.</description>
     <releaseNotes>v1.0.0-beta</releaseNotes>
   </metadata>
+  <files>
+    <file src="../readme.md" target="" />
+  </files>
 </package>
