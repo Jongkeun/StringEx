@@ -1,0 +1,1 @@
+nuget pack .\StringEx.csproj -properties Configuration=Release
