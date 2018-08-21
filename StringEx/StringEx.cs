@@ -948,6 +948,16 @@ namespace StringEx
         }
 
         /// <summary>
+        ///     Checks if a string is null or white space
+        /// </summary>
+        /// <param name="val">string to evaluate</param>
+        /// <returns>true if string is null or is white space else false</returns>
+        public static bool IsNullOrWhiteSpace(this string val)
+        {
+            return String.IsNullOrWhiteSpace(val);
+        }
+
+        /// <summary>
         ///     Checks if string length is a certain minimum number of characters, does not ignore leading and trailing
         ///     white-space.
         ///     null strings will always evaluate to false.
