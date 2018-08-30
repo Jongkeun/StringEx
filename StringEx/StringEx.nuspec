@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Common.StringEx</id>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <title>StringEx</title>
     <authors>Jongkeun</authors>
     <owners>Jongkeun</owners>
@@ -11,7 +11,10 @@
     <iconUrl>https://thumb.ibb.co/cDdnwU/cb4yv_16h30_0.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>This is a extension of a string class. It contains very useful function about a string class.</description>
-    <releaseNotes>v1.0.1 - make dotnet version downgrade.</releaseNotes>
+    <releaseNotes>
+		v1.0.2 - add IsNullOrWhiteSpace
+		v1.0.1 - make dotnet version downgrade.
+	</releaseNotes>
   </metadata>
   <files>
     <file src="../readme.md" target="" />
