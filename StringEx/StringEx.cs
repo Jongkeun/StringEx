@@ -28,6 +28,22 @@ namespace StringEx
         }
 
         /// <summary>
+        ///     Converts the string representation of a number to integer equivalent
+        /// </summary>
+        /// <param name="value">string containing a number to convert</param>
+        /// <returns>Int</returns>
+        /// <remarks>
+        ///     The conversion fails if the string parameter is null, is not of the correct format, or represents a number
+        ///     less than System.Int32.MinValue or greater than System.Int32.MaxValue
+        /// </remarks>
+        public static int ToInt(this string value)
+        {
+            double dNumber;
+            double.TryParse(value, out dNumber);
+            return (int)dNumber;
+        }
+
+        /// <summary>
         ///     Converts the string representation of a number to its 32-bit signed integer equivalent
         /// </summary>
         /// <param name="value">string containing a number to convert</param>
